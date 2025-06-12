@@ -2,62 +2,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ride Chucky</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ride Chucky - Club de Ciclismo Extremo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mr+Dafoe&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f7f7f7;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-family: 'Mr Dafoe', cursive;
+      font-size: 3em;
+      margin: 0;
+      color: #ff6f00;
+    }
+    .hero {
+      background: url('https://i.imgur.com/8vwVGKw.jpg') no-repeat center center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .button {
+      display: inline-block;
+      background: #ff6f00;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-<section class="section-dark" style="padding: 40px 20px; text-align: center;">
-  <h2 style="font-size: 2em; margin-bottom: 10px;">Ubicación en el Mapa</h2>
-  <p>Encontranos directamente acá:</p>
-  <iframe src="https://www.google.com/maps/d/embed?mid=1tP0G2CC3HT0RSptLVRWvS1W8Fe2K1ck&ehbc=2E312F" width="100%" height="480" style="border-radius: 12px; border: 2px solid #ff6f00;"></iframe>
-</section>
-
-<section class="section-light" style="padding: 40px 20px; text-align: center;">
-  <h2 style="font-size: 2em; margin-bottom: 10px;">Sponsors</h2>
-  <p>Agradecemos el apoyo de nuestros sponsors que hacen posible esta aventura:</p>
-  <ul style="list-style: none; padding: 0;">
-    <li>🚴 <strong>Bicibar Mendoza</strong></li>
-    <li>🍺 <strong>23 Ríos Craft Beer</strong></li>
-    <li>🛠️ <strong>Stantrack Mantenimiento</strong></li>
-    <li>📸 <strong>Tu Marca Acá</strong> (sumate como sponsor)</li>
-  </ul>
-</section>
-
-<section class="section-dark" style="padding: 40px 20px; text-align: center;">
-  <h2 style="font-size: 2em; margin-bottom: 10px;">Preguntas Frecuentes (FAQ)</h2>
-  <div style="max-width: 700px; margin: 0 auto; text-align: left;">
-    <h3>¿Qué necesito para comenzar?</h3>
-    <p>Una bici en condiciones, casco, agua y ganas de aprender.</p>
-    <h3>¿Desde qué edad se puede participar?</h3>
-    <p>Desde los 3 años (Mini Peques) hasta adultos sin límite de edad.</p>
-    <h3>¿Se puede asistir sin inscripción previa?</h3>
-    <p>No, todas las clases requieren inscripción para asegurar seguridad y cupos.</p>
-  </div>
-</section>
-
-<section class="section-light" style="padding: 40px 20px; text-align: center;">
-  <h2 style="font-size: 2em; margin-bottom: 10px;">Tienda Ride Chucky</h2>
-  <p>Muy pronto vas a poder comprar online:</p>
-  <ul style="list-style: none; padding: 0;">
-    <li>🧢 Gorras oficiales</li>
-    <li>👕 Remeras y buzos exclusivos</li>
-    <li>🎒 Mochilas para tus salidas</li>
-    <li>🎁 Combos con descuentos para socios</li>
-  </ul>
-  <p>Seguinos en <a href="https://instagram.com/ride.chucky" target="_blank" style="color: #ff6f00;">@ride.chucky</a> para enterarte del lanzamiento.</p>
-</section>
-
-<section class="section-light" style="padding: 40px 20px; text-align: center;">
-  <h2 style="font-size: 2em; margin-bottom: 10px;">Contacto</h2>
-  <p>Escribinos por WhatsApp o completá el formulario:</p>
-  <a href="https://wa.me/5492616129673" class="button" style="margin-bottom: 20px; display: inline-block;">Hablar por WhatsApp</a>
-  <form action="#" method="POST" style="max-width: 500px; margin: 0 auto; text-align: left;">
-    <input type="text" name="nombre" placeholder="Tu nombre" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
-    <input type="email" name="email" placeholder="Tu email" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
-    <textarea name="mensaje" placeholder="Contanos en qué plan querés participar" required style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
-    <input type="submit" value="Enviar consulta" style="background-color: #ff6f00; color: white; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer;">
-  </form>
-</section>
+  <header>
+    <h1>Ride Chucky</h1>
+    <p>Club de Ciclismo Extremo</p>
+  </header>
+  <section class="hero">
+    <h2>Aprendé con seguridad, entrená con pasión</h2>
+    <a class="button" href="https://wa.me/5492616129673">Hablar por WhatsApp</a>
+    <a class="button" href="#">Unirme al Plan Full Rider</a>
+  </section>
+  <section class="section">
+    <h2>Clases y Ubicaciones</h2>
+    <p>📍 Miércoles y Viernes – 23 Ríos (Calle Boedo, Mendoza)</p>
+    <p>📍 Jueves y Sábados – Costa Bike Park (Río Bike Park)</p>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tP0G2CC3HT0RSptLVRWvS1W8Fe2K1ck&ehbc=2E312F"></iframe>
+  </section>
+  <section class="section">
+    <h2>Galería</h2>
+    <img src="https://i.imgur.com/ubUVukE.jpg" width="100%" style="border-radius:10px; margin-bottom:20px;">
+    <img src="https://i.imgur.com/NpBAUjk.jpg" width="100%" style="border-radius:10px;">
+  </section>
 </body>
 </html>
